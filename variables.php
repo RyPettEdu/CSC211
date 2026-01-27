@@ -22,7 +22,7 @@ $zip = 86314;
 $phone = "123-456-7890";
 
 // Prints the information:
-print "$first_name $last_name<br> $street<br> $city, $state $zip<br> $phone";
+print "<p>$first_name $last_name<br> $street<br> $city, $state $zip<br> $phone</p>";
 
 ?>
 
