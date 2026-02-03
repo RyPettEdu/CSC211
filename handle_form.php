@@ -8,8 +8,6 @@
 <body>
 <?php // Script 3.4 handle_form.php
 
-ini_set('display_errors', 1); // Let me learn from my mistakes.
-
 // This page receives the data from feedback.html
 /* It will recive: title, first_name, last_name, email, response, 
 comments, and Submit in $_POST */
@@ -27,5 +25,6 @@ print "<p>Thank you, $title $first_name $last_name, for your comments.</p>
 
 ?>
 </body>
+
 
 </html>
