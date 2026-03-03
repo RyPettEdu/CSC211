@@ -5,6 +5,7 @@
 	<title>Add a Blog Entry</title>
 </head>
 <body>
+<h1>Add a Blog Entry</h1>
 <?php // Script 12.4 - add_entry.php
 /* This script adds a blog entry to the database */
 
