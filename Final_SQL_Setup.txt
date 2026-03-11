@@ -1,0 +1,13 @@
+CREATE SCHEMA registry;
+
+CREATE TABLE entry
+	(id INT AUTO_INCREMENT, 
+	first_name VARCHAR(30) NOT NULL, 
+	last_name VARCHAR(30) NOT NULL, 
+	address VARCHAR(100) NOT NULL, 
+	city VARCHAR(50) NOT NULL, 
+	state CHAR(2) NOT NULL, 
+	phone CHAR(10) NOT NULL, 
+	email VARCHAR(50) NOT NULL, 
+	sales INT NOT NULL DEFAULT 0, 
+	PRIMARY KEY (id));

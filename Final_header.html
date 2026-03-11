@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="HandheldFriendly" content="True">
+	<title>
+	<?php // CSC211 Requirement - "Has a proper header"
+	// Print the page title
+	if (defined('TITLE')) // Is the title defined?
+	{
+		print TITLE;
+	} else // The title is not defined.
+	{
+		print 'Employee Resources';
+	}
+	?>
+	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- CSC211 Requirement - Uses some CSS formatting -->
+	<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+
+<header container class="siteHeader">
+	<!-- CSC211 Requirement - "Picture for a professional look" -->
+	<img src="images/ImSt_SmallLogo_v1.png" alt="Logo" style="width:100px; height:100px; margin-top: 30px;">
+	<h1 column="4" class="logo">
+		<a href="directory.php">Employee Resources</a>
+	</h1>
+</header>
+
+<main container class="siteContent">
+	<!-- Begin changeable content -->
